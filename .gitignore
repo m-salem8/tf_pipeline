@@ -1,1 +1,8 @@
 env/
+tf-pipeline/
+model_with_epoch/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
