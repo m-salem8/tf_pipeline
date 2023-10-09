@@ -7,7 +7,7 @@ from _06_model_prediction import predict
 
 def main():
     # Step 1: Data Ingestion
-    # load_data() #TODO uncomment for github
+    load_data() #TODO uncomment for github
 
     # Step 2: Data Validation
     # validate_data(data)
@@ -25,6 +25,8 @@ def main():
     # Step 5: Performance Evaluation
     evaluate_model(model, train_generator, validation_generator)
     #TODO improve this part
+    save_model(model)
+
 
     """# Step 6: Model Prediction
     prediction = predict(model, preprocessed_data)"""
